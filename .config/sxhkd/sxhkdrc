@@ -2,6 +2,14 @@
 # wm independent hotkeys
 #
 
+# dunst
+
+alt + shift + k
+  dunstctl history-pop
+
+alt + shift + j
+  dunstctl close
+
 # terminal emulator
 alt + Return
 	alacritty

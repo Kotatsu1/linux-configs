@@ -5,8 +5,8 @@ env:
 
 window:
   padding:
-    x: 25
-    y: 25
+    x: 10
+    y: 10
 
     dynamic_padding:  true
     decoration: none
@@ -29,35 +29,37 @@ font:
 colors:
   # Default colors
   primary:
-    background: '0x181a20'
-    foreground: '0xeeffff'
+    background: '#11111e'
+    foreground: '#c3c3c6'
 
   # Colors the cursor will use if `custom_cursor_colors` is true
   cursor:
-    text: '0x212121'
-    cursor: '0xeeffff'
+    text: '#c3c3c6'
+    cursor: '#c3c3c6'
 
-  # Normal colors
+
   normal:
-    black:   '0x212121'
-    red:     '0xf07178'
-    green:   '0xc3e88d'
-    yellow:  '0xffcb6b'
-    blue:    '0x82aaff'
-    magenta: '0xc792ea'
-    cyan:    '0x89ddff'
-    white:   '0xeeffff'
+    black:   '#11111e'
+    red:     '#BC849C'
+    green:   '#D28898'
+    yellow:  '#E6919D'
+    blue:    '#D694A8'
+    magenta: '#EA99A6'
+    cyan:    '#F0ABB4'
+    white:   '#c3c3c6'
+
+
 
   # Bright colors
   bright:
-    black:   '0x4a4a4a'
-    red:     '0xf07178'
-    green:   '0xc3e88d'
-    yellow:  '0xffcb6b'
-    blue:    '0x82aaff'
-    magenta: '0xc792ea'
-    cyan:    '0x89ddff'
-    white:   '0xffffff'
+    black:   '#4c4c56'
+    red:     '#BC849C'
+    green:   '#D28898'
+    yellow:  '#E6919D'
+    blue:    '#D694A8'
+    magenta: '#EA99A6'
+    cyan:    '#F0ABB4'
+    white:   '#c3c3c6'
 
   indexed_colors:
     - { index: 16, color: '0xf78c6c' }

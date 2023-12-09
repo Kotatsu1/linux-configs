@@ -6,9 +6,10 @@
 
 #Default keyboard layout
 setxkbmap us
+xset r rate 150
 
 #Mouse sensivity
-xinput set-prop "SteelSeries SteelSeries Rival 110 Gaming Mouse" 309 -0.5
+xinput set-prop "SteelSeries SteelSeries Rival 110 Gaming Mouse" 306 -0.5
 
 # Killing any possible previous processes
 killall -q -w picom
@@ -20,8 +21,8 @@ picom &
 polybar -c=~/.config/polybar/bar mybar -r &
 nitrogen --restore &
 # Monitors
-bspc monitor -d 1 2 3 4 5 6 7
-
+bspc monitor -d 1 2 3 4 5 6 7 8 9 0
+./monitors.sh
 # Mouse configs
 
 bspc config pointer_modifier mod4
