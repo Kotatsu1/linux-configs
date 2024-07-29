@@ -23,7 +23,9 @@ if [[ $WIFI == "Y" || $WIFI == "y" ]]; then
     sleep 3
 fi
 
-yay -S --noconfirm hyprland kitty waybar swaybg swaylock-effects wofi wlogout mako thunar polkit-gnome python-requests starship swappy grim slurp pamixer brightnessctl gvfs bluez bluez-utils lxappearance xfce4-settings dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra ttf-font-awesome ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono
+pacman -S --noconfirm zoxide
+
+yay -S --noconfirm hyprland kitty waybar swaybg swaylock-effects wofi wlogout mako thunar polkit-gnome python-requests starship swappy grim slurp pamixer brightnessctl gvfs bluez bluez-utils lxappearance xfce4-settings dracula-gtk-theme dracula-icons-git xdg-desktop-portal-hyprland waypaper noto-fonts noto-fonts-emoji noto-fonts-cjk noto-fonts-extra ttf-font-awesome ttf-jetbrains-mono-nerd ttf-nerd-fonts-symbols ttf-nerd-fonts-symbols-common ttf-nerd-fonts-symbols-mono
 
 # Start the bluetooth service
 echo -e "Starting the Bluetooth Service...\n"
